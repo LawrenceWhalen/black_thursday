@@ -38,7 +38,7 @@ class MerchantRepository
 
   def create(name)
     Merchant.new(id: max_id_plus_one,
-                  name: name)
+                 name: name)
   end
 
   def update(id, name)
